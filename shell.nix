@@ -1,3 +1,6 @@
 { pkgs ? import <nixpkgs> {} }: pkgs.mkShell {
-  nativeBuildInputs = [ pkgs.catppuccin-catwalk ];
+  nativeBuildInputs = with pkgs; [
+    catppuccin-catwalk
+    gnumake
+  ];
 }
