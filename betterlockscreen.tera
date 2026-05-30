@@ -1,0 +1,27 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+  filename: "themes/{{ flavor.identifier }}.conf"
+---
+bgcolor={{ mantle.hex }} # mantle
+loginbox={{ mantle.hex }} # mantle
+
+timecolor={{ text.hex }} # text
+greetercolor={{ text.hex }} # text
+layoutcolor={{ text.hex }} # text
+
+bshlcolor={{ red.hex }} # red
+
+ringcolor={{ surface0.hex }} # surface0
+insidecolor={{ base.hex }} # base
+keyhlcolor={{ mauve.hex }} # mauve
+
+ringvercolor={{ peach.hex }} # peach
+insidevercolor={{ base.hex }} # base
+verifcolor={{ peach.hex }} # peach
+
+ringwrongcolor={{ red.hex }} # red
+insidewrongcolor={{ base.hex }} # base
+wrongcolor={{ red.hex }} # red
