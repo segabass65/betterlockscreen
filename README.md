@@ -42,6 +42,7 @@
 ## 💝 Thanks to
 
 - [SegaBASS (segabass65)](https://github.com/segabass65)
+- [Scarce Koi](https://github.com/scarcekoi)
 
 &nbsp;
 
